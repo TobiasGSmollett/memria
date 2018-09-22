@@ -1,0 +1,13 @@
+name: memria
+version: 0.1.0
+
+authors:
+  - TobiasGSmollett <landofscala@gmail.com>
+
+targets:
+  memria:
+    main: src/memria.cr
+
+crystal: 0.26.1
+
+license: MIT
