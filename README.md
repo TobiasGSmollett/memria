@@ -5,8 +5,10 @@ Memria is  [memcached-tool](https://github.com/memcached/memcached/blob/master/s
 ## Installation
 
 ```sh
-$ git clone 
-$ cd memria/src
+$ git clone https://github.com/TobiasGSmollett/memria.git
+$ cd memria
+$ make
+$ make install
 ```
 
 ## Usage
