@@ -13,14 +13,24 @@ $ make install
 
 ## Required
 
-- Crystal v0.26.1
+- `Crystal v0.26.1`
 
 ## Usage
 
 ```sh
-$ memria localhost
+$ memria localhost dump
 add foo 0 0 2
 11
+
+$ memria localhost stats
+#localhost:11211        Field          Value
+              accepting_conns              1
+                    auth_cmds              0
+                  auth_errors              0
+                        bytes             64
+                   bytes_read           4837
+                bytes_written         346499
+                          ...            ...
 ```
 ## Development
 
