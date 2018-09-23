@@ -44,7 +44,7 @@ $ memria localhost stats
 ```
 ## Development
 
-TODO: Write development instructions here
+- Error handling
 
 ## Contributing
 
