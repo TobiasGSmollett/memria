@@ -18,6 +18,16 @@ $ make install
 ## Usage
 
 ```sh
+$ memria localhost help
+Usage: memria host[:port] [mode]
+   memria 10.0.0.5:11211 display        # shows slabs
+   memria 10.0.0.5:11211                # same.  (default is display)
+   memria 10.0.0.5:11211 stats          # shows general stats
+   memria 10.0.0.5:11211 settings       # shows settings stats
+   memria 10.0.0.5:11211 sizes          # shows sizes stats
+   memria 10.0.0.5:11211 dump           # dumps keys and values
+   ...
+
 $ memria localhost dump
 add foo 0 0 2
 11
