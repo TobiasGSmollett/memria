@@ -8,6 +8,7 @@ module Memria::Command
       break if line == "END"
       if line && line.match(/^key=(\S+) exp=(-?\d+) .*/)
         _, key, _, exp = line.split(/=| /)
+        key = key.gsub(/%(.{2})/){ |s| s[1, 2].to_i(16).chr }
         if exp.to_i == -1
           keyexp[key] = 0
         else
